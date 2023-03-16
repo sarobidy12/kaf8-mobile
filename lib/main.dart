@@ -24,10 +24,10 @@ class MyApp extends StatelessWidget {
           switch (settings.name) {
             case '/step_2':
               return MaterialPageRoute(
-                  builder: (_) => const Verify_step_two(title: "etape 2"));
+                  builder: (_) => const  Verify_step_two(title: "etape 2"));
             case '/step_1':
               return MaterialPageRoute(
-                  builder: (_) => const Verify_step_one(title: "etape 1"));
+                  builder: (_) => const  Verify_step_one(title: "etape 1"));
             default:
               return MaterialPageRoute(
                   builder: (_) => const Home(title: "Home"));

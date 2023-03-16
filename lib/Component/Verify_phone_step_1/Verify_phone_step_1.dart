@@ -1,7 +1,7 @@
-import 'package:kaf8/Component/Verify_phone_step_1/title.dart';
-import 'package:kaf8/Component/Verify_phone_step_1/description.dart';
-import 'package:kaf8/Component/Verify_phone_step_1/phone.dart';
-import 'package:kaf8/Component/Verify_phone_step_1/submit.dart';
+import 'title.dart';
+import 'description.dart';
+import 'phone.dart';
+import 'submit.dart';
 import 'package:flutter/material.dart';
 
 class Verify_step_one extends StatefulWidget {
@@ -46,9 +46,9 @@ class Verify_step_one_State extends State<Verify_step_one> {
           children: <Widget>[
             title(),
             description(),
-            new Image.asset('Group7271.png',
-              height: 400,
-              width: 400,
+            new Image.asset('assets/images/Group7271.png',
+              height: 250,
+              width: 250,
             ),
             phone(),
             submit()

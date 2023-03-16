@@ -24,7 +24,7 @@ class Home_state extends State<Home> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Center_child(
-              new Image.asset('KF8.png',
+                  Image.asset('assets/images/KF8.png',
                 height: 400,
                 width: 400,
               )),

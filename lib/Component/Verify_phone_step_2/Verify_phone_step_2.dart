@@ -1,7 +1,7 @@
-import 'package:kaf8/Component/Verify_phone_step_2/title.dart';
-import 'package:kaf8/Component/Verify_phone_step_2/description.dart';
-import 'package:kaf8/Component/Verify_phone_step_2/codePin.dart';
-import 'package:kaf8/Component/Verify_phone_step_2/submit.dart';
+import 'title.dart';
+import 'description.dart';
+import 'codePin.dart';
+import 'submit.dart';
 import 'package:flutter/material.dart';
 
 class Verify_step_two extends StatefulWidget {
@@ -35,9 +35,9 @@ class Verify_step_two_State extends State<Verify_step_two> {
           children: <Widget>[
             title(),
             description(),
-            new Image.asset('Group7271.png',
-              height: 400,
-              width: 400,
+            new Image.asset('assets/images/Group7271.png',
+              height: 200,
+              width: 250,
             ),
             PinputExample(),
             submit()
